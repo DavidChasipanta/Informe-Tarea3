@@ -19,7 +19,7 @@ Ojetivo Especifico
 ![image](https://user-images.githubusercontent.com/105617383/171094927-ba669602-fd65-4742-a8f5-a6a76c544bc5.png)
 ![image](https://user-images.githubusercontent.com/105617383/171099732-9e8f96bd-6596-4c21-973c-cbaff318b92d.png)
 
-3. Explicación y resolución de ejercicios
+3.Explicación y resolución de ejercicios
 
 CAPITULO 5
 
@@ -27,49 +27,61 @@ PROBLEMAS
 
 SECCIÓN 5-1 Resistores en serie
 
-2. Determine qué resistores de la figura 5-68 están en serie. Demuestre cómo interconectar las puntas para poner todos los resistores en serie
-image
+**2.Determine qué resistores de la figura 5-68 están en serie. Demuestre cómo interconectar las puntas para poner todos los resistores en serie**
 
-4. Determine la resistencia nominal presente entre las puntas 2 y 3 del circuito de la figura 5-68.
-SECCIÓN 5-2 Corriente en un circuito en serie
+![image](https://user-images.githubusercontent.com/105617383/171631263-36d83f62-7470-4cf9-bfff-c3499423126d.png)
 
-6. ¿Cuál es la corriente a través de cada resistor dispuesto en un circuito en serie si el voltaje total es de 12 V y la resistencia total de 120 Ω?
+***4.Determine la resistencia nominal presente entre las puntas 2 y 3 del circuito de la figura 5-68.***
 
-8. Muestre cómo conectar una fuente de voltaje y un amperímetro a la tarjeta de circuito impreso ilustrada en la figura 5-68 para medir la corriente en R1. ¿Qué otras corrientes de resistor se miden con esta configuración?
+![image](https://user-images.githubusercontent.com/105617383/171633132-ab44c992-102d-496f-9415-4498ead7bc4a.png)
 
-SECCIÓN 5-3 Resistencia total en serie
+SECCIÓN 5-2 Corriente en un circuito en serie**
 
-10. Se conectan los siguientes resistores (uno de cada uno) en un circuito en serie: 1.0 Ω, 2.2 Ω, 5.6 Ω, 12 Ω, y 22 Ω. Determine la resistencia total.
+**6.¿Cuál es la corriente a través de cada resistor dispuesto en un circuito en serie si el voltaje total es de 12 V y la resistencia total de 120 Ω?**
 
-12. Calcule la RT en cada circuito de la figura 5-71.
+**8.Muestre cómo conectar una fuente de voltaje y un amperímetro a la tarjeta de circuito impreso ilustrada en la figura 5-68 para medir la corriente en R1. ¿Qué otras corrientes de resistor se miden con esta configuración?**
 
-14. Se conectan en serie seis resistores de 56 Ω, ocho de 100 Ω, y dos de 22 Ω. ¿Cuál es la resistencia total?
+![image](https://user-images.githubusercontent.com/105617383/171633339-df91b0c3-60db-445a-b598-81d041111f9b.png)
 
-16. Usted dispone de los siguientes valores de resistor en el laboratorio en cantidades ilimitadas: 10 Ω, 100 Ω, 470 Ω, 560 Ω, 680 Ω, 1.0 kΩ, 2.2 kΩ, y 5.6 kΩ. No hay existencias de todos los demás valores estándar. Un proyecto en el que está trabajando requiere emplear una resistencia de 18 kΩ. ¿Qué combinación de los valores disponibles utilizaría en serie para lograr la resistencia total?
+**SECCIÓN 5-3 Resistencia total en serie**
 
-18. En la figura 5-73, ¿cuál es la resistencia total de A a B con cada posición del interruptor?}
+**10.Se conectan los siguientes resistores (uno de cada uno) en un circuito en serie: 1.0 Ω, 2.2 Ω, 5.6 Ω, 12 Ω, y 22 Ω. Determine la resistencia total.**
 
-SECCIÓN 5-4 Aplicación de la Ley de Ohm
+**12.Calcule la RT en cada circuito de la figura 5-71.**
 
-20. Determine la caída de voltaje a través de cada resistor mostrado en la figura 5-74.
+![image](https://user-images.githubusercontent.com/105617383/171633839-4c5124bc-3585-4aaa-8bd1-c72a1d86a859.png)
 
-22. Cuatro resistores de igual valor están en serie con una batería de 5 V y se miden 2.23 mA. ¿Cuál es el valor de cada resistor?
+**14.Se conectan en serie seis resistores de 56 Ω, ocho de 100 Ω, y dos de 22 Ω. ¿Cuál es la resistencia total?**
 
-24. Determine VR1, R2 y R3 en la figura 5-76.
-image
+**16.Usted dispone de los siguientes valores de resistor en el laboratorio en cantidades ilimitadas: 10 Ω, 100 Ω, 470 Ω, 560 Ω, 680 Ω, 1.0 kΩ, 2.2 kΩ, y 5.6 kΩ. No hay existencias de todos los demás valores estándar. Un proyecto en el que está trabajando requiere emplear una resistencia de 18 kΩ. ¿Qué combinación de los valores disponibles utilizaría en serie para lograr la resistencia total?**
+
+**18.En la figura 5-73, ¿cuál es la resistencia total de A a B con cada posición del interruptor?**
+
+![image](https://user-images.githubusercontent.com/105617383/171633429-9b9f0226-22a7-46f7-9fb5-eace1ba245cf.png)
+
+***SECCIÓN 5-4 Aplicación de la Ley de Ohm***
+
+***20. Determine la caída de voltaje a través de cada resistor mostrado en la figura 5-74.***
+
+![image](https://user-images.githubusercontent.com/105617383/171633974-44720734-ff71-4131-9cc9-7f50ba379995.png)
+
+**22. Cuatro resistores de igual valor están en serie con una batería de 5 V y se miden 2.23 mA. ¿Cuál es el valor de cada resistor?**
+
+**24. Determine VR1, R2 y R3 en la figura 5-76.
+image**
 
 26. Determine la corriente que el medidor de la figura 5-78 lee en cada posición del interruptor calibrado.
 image
 
-SECCIÓN 5-5 Fuentes de voltaje en serie
+**SECCIÓN 5-5 Fuentes de voltaje en serie**
 
-28. El término oposición en serie significa que las fuentes están en serie con polaridades opuestas. Si una batería de 12 V y otra de 3 V están en oposición en serie, ¿cuál es el voltaje total?
+**28. El término oposición en serie significa que las fuentes están en serie con polaridades opuestas. Si una batería de 12 V y otra de 3 V están en oposición en serie, ¿cuál es el voltaje total?**
 
-SECCIÓN 5-6 Ley del voltaje de Kirchhoff
+**SECCIÓN 5-6 Ley del voltaje de Kirchhoff**
 
-30. Se miden las siguientes caídas de voltaje a través de tres resistores dispuestos en serie: 5.5 V, 8.2 V, y 12.3 V. ¿Cuál es el valor del voltaje de la fuente al que están conectados estos resistores?
+**30. Se miden las siguientes caídas de voltaje a través de tres resistores dispuestos en serie: 5.5 V, 8.2 V, y 12.3 V. ¿Cuál es el valor del voltaje de la fuente al que están conectados estos resistores?**
 
-32. Determine la caída o las caídas de voltaje no especificadas en cada circuito de la figura 5-80. Muestre cómo conectar un voltímetro para medir cada una de las caídas de voltaje desconocidas.
+32.Determine la caída o las caídas de voltaje no especificadas en cada circuito de la figura 5-80. Muestre cómo conectar un voltímetro para medir cada una de las caídas de voltaje desconocidas.
 image
 
 34. Encuentre R1, R2 y R3 en la figura 5-82.
