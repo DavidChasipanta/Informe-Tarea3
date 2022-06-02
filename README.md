@@ -165,8 +165,23 @@ V = 5.5 V + 8.2 V + 12.3 V = 26 v
 **32.Determine la caída o las caídas de voltaje no especificadas en cada circuito de la figura 5-80. Muestre cómo conectar un voltímetro para medir cada una de las caídas de voltaje desconocidas.**
 
 ![image](https://user-images.githubusercontent.com/105617383/171636951-65bc3455-eb23-49d1-8e14-91b8fba296d6.png)
+a)	Las caídas de voltaje son las que están en las resistencias: 2V, V2, 1V, 3.2V, 1V, 1.5V, 0.5V.
+
+15V - 0.5V – 1.5V – 1V – 3.2V – V2 - 2V = 0
+
+6.8V – V2 = 0
+
+V2 = 6.8V
+
+b)	Las caídas de voltaje son las que están en las resistencias: 8V, VR1, VR2, VR3, VR4.
+
+Vs – 8V – VR1 – VR2 – VR3 – VR4 = 0
+
+8V = Vs – VR1 – VR2 – VR3 – VR4
 
 Las caídas de voltaje en los dos circuitos son las que tienen un paso de corriente contrario a la mayoría de fuentes.Para medir las caídas de voltaje se debe conectar en paralelo a las resistencias.
+
+![image](https://user-images.githubusercontent.com/105617383/171758592-183f6736-7eab-4255-a6a7-21623d3aeb37.png)
 
 **34.Encuentre R1, R2 y R3 en la figura 5-82.**
 
@@ -187,6 +202,27 @@ Las caídas de voltaje en los dos circuitos son las que tienen un paso de corrie
 **36.Con el resultado del problema 35, determine el voltaje a través de cada resistor mostrado en la figura 5-83 para cada posición del interruptor.**
 
 ![image](https://user-images.githubusercontent.com/105617383/171637155-81beef64-811e-4d36-aaec-03e85485033c.png)
+
+RT = 18V / 0.01A
+RT = 800
+
+V1 = 0.01A × 1800Ω
+V1 = 18V
+
+V2 = 0.01A × 1000Ω
+V2 = 10V
+
+V3 = 0.01A × 820Ω
+V3 = 8.2V
+
+V4 = 0.01A × 560Ω
+V4 = 5.6V
+
+18V – 18V – 10V – 8.2V – 5.6V – VR3 = 0
+
+-23.8V – VR3 = 0
+
+VR3 = -23.8V
 
 **SECCIÓN 5-7 Divisores de voltaje**
 
@@ -210,6 +246,14 @@ Las caídas de voltaje en los dos circuitos son las que tienen un paso de corrie
 
 ![image](https://user-images.githubusercontent.com/105617383/171637306-091580b1-02a5-471c-8f17-bd970ed82459.png)
 
+RT = 470Ω + 1000Ω + 680Ω = 2150Ω
+
+V1 = (470Ω / 2150Ω) × 12V = 2.62V     → Voltaje min.
+
+V2 = (1000Ω / 2150Ω) × 12V = 5.58V     → Voltaje máx.
+
+V3 = (680Ω / 2150Ω) × 12V = 3.8V
+
 **42.En cada punto de la figura 5-87, determine el voltaje con respecto al lado negativo de la batería.**
 
 ![image](https://user-images.githubusercontent.com/105617383/171637379-1e6fdc7d-1b0e-4693-af0c-f307799aa936.png)
@@ -222,6 +266,10 @@ Vx = 5.16 V
 
 **44.Con la tabla de valores estándar de resistor dada en el apéndice A, diseñe un divisor de voltaje para producir los siguientes voltajes aproximados con respecto a tierra utilizando una fuente de 30 V; 8.18 V, 14.7 V, y 24.6 V. La corriente extraída de la fuente debe limitarse a no más de 1 mA. El número de resistores, sus valores, y sus valores nominales de potencia en watts deben ser especificados. Se debe proporcionar un diagrama esquemático que muestre la disposición del circuito y la colocación de los resistores.**
 
+El diseño del circuito que cumple con las características dadas es el siguiente: 
+
+![image](https://user-images.githubusercontent.com/105617383/171758893-33337e4a-6804-4c20-beab-dc2b26e3d997.png)
+
 **SECCIÓN 5-8 Potencia en circuitos en serie**
 
 **46.Cada uno de cinco resistores dispuestos en serie manejan 50 mW. ¿Cuál es la potencia total?**
@@ -230,6 +278,20 @@ PT = 50 mW + 50 mW + 50 mW + 50 mW + 50 mW = 250 mW
 
 **48.Los siguientes resistores de 1⁄4 W están dispuestos en serie: 1.2 kΩ, 2.2 kΩ, 3.9 kΩ, y 5.6 kΩ.¿Cuál es el voltaje máximo que puede ser aplicado a través de estos resistores sin exceder el valor nominal de potencia? ¿Cuál resistor se quemará primero al aplicar un voltaje excesivo?**
 
+RT = 1.2kΩ + 2.2kΩ + 3.9kΩ + 5.6kΩ = 12.9kΩ = 12900Ω
+
+I = 12V / 12900Ω = 0.93mA 
+
+P1 = (0.93mA)^2 (1.2kΩ) = 1.03 mW
+
+P2 = (0.93mA)^2 (2.2kΩ) = 1.9 mW
+
+P3 = (0.93mA)^2 (3.9kΩ) = 3.37 mW
+
+P4 = (0.93mA)^2 (5.6kΩ) = 4.84 mW
+
+La capacidad de los resistores de 3.9kΩ y 5.6kΩ no son suficientes para manejar la potencia existente.
+
 **50.Cierto circuito en serie se compone de un resistor de 1⁄8 W, un resistor de 1⁄4 W, y un resistor de 1⁄2 W. La resistencia total es de 2400 Ω. Si cada uno de los resistores opera en el circuito a su máxima disipación de potencia, determine lo siguiente:**
 
 **(a) I**
@@ -237,6 +299,18 @@ PT = 50 mW + 50 mW + 50 mW + 50 mW + 50 mW = 250 mW
 **(b) VT**
 
 **(c) El valor de cada resistor**
+
+PT = 1/8W + 1/4W + 1/2W = 7/8W = 0.875W
+
+I = √(PT/RT) = √(0.875W/2400Ω) = 19.1mA
+
+VT = I × R = 19.1mA × 2.4kΩ = 54.84V
+
+R1 = P1 / I^2 = 0.125W / (19.09mA)^2 = 343Ω
+
+R2 = P2 / I^2 = 0.25W / (19.09mA)^2 = 686Ω
+
+R3 = P3 / I^2 = 0.5W / (19.09mA)^2 = 1372.01Ω
 
 **SECCIÓN 5-9 Mediciones de voltaje**
 
@@ -249,8 +323,17 @@ Se coloca a un lado de R2 y el otro punto se pone a tierra, luego se resta el vo
 **SECCIÓN 5–10 Localización de fallas**
 
 **54.Se conecta una serie de cinco resistores a través de una batería de 12 V. Se miden 0 volts en todos los resistores excepto en R2. ¿Qué está mal en el circuito? ¿Qué voltaje se medirá a través de R2?**
+¿Qué está mal en el circuito?
 
-Se produjo una abertura, su voltaje es de 12 V. 
+Se presume que el circuito está abierto, para comprobarlo usamos el método de división a la mitad utilizando un voltímetro siguiendo estos pasos:
+-Medir a través de R1 y R2 (la mitad izquierda del circuito). Una lectura de 0 V indica que ninguno de estos resistores está abierto, pero en este caso si marca una cantidad de voltaje diferente de 0V.
+-Ahora medimos la mitad que si marco una lectura de voltaje diferente de 0V (R1 Y R2), es decir, que medimos a R1, si marca 0V no hay resistores abiertos, y continuamos en medir la otra mitad, es decir, R2; y tratándose de este caso R2 si marca una lectura de voltaje diferente de 0V.
+-Al hallar esa lectura ya encontramos el resistor que está abierto.
+
+¿Qué voltaje se medirá a través de R2?
+
+El voltaje medido en R2 será el mismo de la fuente de energía principal, y en este caso la batería es de 12V y por ende la R2 medirá 12V, especialmente porque es un circuito abierto.
+
 
 **56.¿Cuál corriente mediría usted en la figura 5-91(b) si sólo R2 estuviera en cortocircuito?**
 
