@@ -18,6 +18,15 @@
 ![image](https://user-images.githubusercontent.com/105617383/171091655-889be272-2edf-4eb4-9757-928175b43cd4.png)
 ![image](https://user-images.githubusercontent.com/105617383/171094927-ba669602-fd65-4742-a8f5-a6a76c544bc5.png)
 ![image](https://user-images.githubusercontent.com/105617383/171099732-9e8f96bd-6596-4c21-973c-cbaff318b92d.png)
+![image](https://user-images.githubusercontent.com/105617383/171723156-4e25002a-b67d-4426-aec2-bdd8faaea7f2.png)
+![image](https://user-images.githubusercontent.com/105617383/171744376-e5144af6-4f45-403c-aaea-fcca06291916.png)
+![image](https://user-images.githubusercontent.com/105617383/171744775-2d10b88b-04e1-47d7-815a-9ba263640343.png)
+
+
+![image](https://user-images.githubusercontent.com/105617383/171736548-7bd51704-c5e4-48da-a30a-96aa0df7c34c.png)
+![image](https://user-images.githubusercontent.com/105617383/171736646-624085b5-f6c7-4a0f-8df9-9b94750626f4.png)
+![image](https://user-images.githubusercontent.com/105617383/171736704-bb42c0b2-97ec-467b-9936-40585960d637.png)
+
 
 # **3.Explicación y resolución de ejercicios**
 
@@ -85,7 +94,7 @@ RT = R1 + R3 + R5 = 510 Ω + 820 Ω + 680 Ω = 2010 Ω
 
 ![image](https://user-images.githubusercontent.com/105617383/171633974-44720734-ff71-4131-9cc9-7f50ba379995.png)
 
-(a) Se necesita conocer primero la corriente que pasa por el cicuito, I = V/R = 5.5 V/(2.2 kΩ+5.6 kΩ+1.0 kΩ) = 0.625 mA
+* (a) Se necesita conocer primero la corriente que pasa por el cicuito, I = V/R = 5.5 V/(2.2 kΩ+5.6 kΩ+1.0 kΩ) = 0.625 mA
 	
 R1: V = I*R = 0.625 mA*2.2 kΩ = 1.38 V
 	
@@ -93,7 +102,7 @@ R2: V = I*R = 0.625 mA*5.6 kΩ = 3.5 V
 	
 R3: V = I*R = 0.625 mA*1.0 kΩ = 0.63 V
 
-(b) Se necesita conocer primero la corriente que pasa por el cicuito, I = V/R = 16 V/(1.0 MΩ+2.2 MΩ+560 kΩ) = 16 V/(1000 kΩ+2200 kΩ+560 kΩ) = 4.25x10^(-3) mA
+* (b) Se necesita conocer primero la corriente que pasa por el cicuito, I = V/R = 16 V/(1.0 MΩ+2.2 MΩ+560 kΩ) = 16 V/(1000 kΩ+2200 kΩ+560 kΩ) = 4.25x10^(-3) mA
 
 R1: V = I*R = 4.25x10^(-3) mA*1000 kΩ = 4.25 V
 
@@ -257,9 +266,15 @@ Se produjo una abertura, su voltaje es de 12 V.
 
 **(a) ¿Qué sucedió?**
 
+ Se dio un corto.
+
 **(b) Específicamente, ¿qué debe hacerse para arreglar el problema?**
 
+ Para localizar un corto, se mide el voltaje a través de cada resistor hasta que se tiene una lectura de 0 V.
+
 **(c) ¿Con qué voltaje ocurrió la falla?**
+
+Se debe calcular el voltaje para cada resistencia y en donde exista un voltaje mayor es donde se encontrará el corto.
 
 **CAPITULO 6**
 
@@ -293,15 +308,30 @@ Se produjo una abertura, su voltaje es de 12 V.
 
 **14.Los siguientes resistores están conectados en paralelo: 1.0 MΩ, 2.2 MΩ, 5.6 MΩ, 12 MΩ, y 22 MΩ. Determine la resistencia total.**
 
+1/RT = 1/1.0 MΩ + 1/2.2 MΩ + 1/5.6 MΩ + 1/12 MΩ + 1/22 MΩ 
+RT = 0.57 MΩ
+
 **16.Calcule RT en cada uno de los circuitos de la figura 6-70.**
 
 ![image](https://user-images.githubusercontent.com/105617383/171639680-18cd65d2-415d-4315-9a42-1dc5a5cbccda.png)
+
+(a) 1/RT = 1/560 Ω + 1/220 Ω     , RT = 157.95 Ω
+
+(b) 1/RT = 1/27 kΩ + 1/56 kΩ     , RT = 18.22 kΩ
+
+(c) 1/RT = 1/1.5 KΩ + 1/2.2 KΩ   , RT = 0.9 KΩ
 
 **18.Tres grupos, uno de cinco resistores de 470 Ω, otro de diez resistores de 100 Ω, y uno más de dos resistores de 100 Ω están conectados en paralelo. ¿Cuál es la resistencia total para cada uno de los tres agrupamientos?**
 
 **20.Si la resistencia total en la figura 6-71 es de 389.2 Ω, ¿cuál es el valor de R2?**
 
 ![image](https://user-images.githubusercontent.com/105617383/171639806-5160a3d0-9892-40e5-a6f2-d2d07e5758e3.png)
+
+RT = 1/(1/R1 + 1/R2) 
+
+389.2 Ω = 1/(1/680 Ω + 1/R2)   
+
+R2 = 910.09 Ω
 
 **SECCIÓN 6–5 Aplicación de la ley de Ohm**
 
@@ -343,6 +373,8 @@ image**
 **SECCIÓN 6–8 Potencia en circuitos en paralelo**
 
 **38.Cada resistor de un grupo de cinco dispuesto en paralelo maneja 250 mW. ¿Cuál es la potencia total?**
+
+PT = 250 mW + 250 mW + 250 mW + 250 mW + 250 mW = 1250 mW
 
 **40.Seis focos están conectados en paralelo entre los extremos de una fuente de 110 V. Cada foco es de 75 W. ¿Cuál es la corriente a través de cada foco, y cuál es la corriente total?**
 
@@ -386,8 +418,6 @@ image**
 * De igual manera se tiene que un nodo es cualquier punto o unión donde dos o más componentes están conectados, y la ley de Kirchoff menciona que la suma de las corrientes que entran a un nodo, es igual a la suma de las corrientes que salen del mismo nodo.
 
 * Un circuito se encuentra en serie cuando solo posee una trayectoria y por lo tanto la corriente en dicho circuito no puede variar, pero el voltaje si varia debido a la caída de voltaje que presenta al pasar por un resistor, es decir va disminuyendo en el transcurso al pasar a través de todos los resistores.
-
-
 
 # BIBLIOGRAFÍA
 
