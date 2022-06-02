@@ -1,5 +1,5 @@
 # Informe-Tarea3
-**1.OBJETIVOS**
+# **1.OBJETIVOS**
 
 **Objtivo  General**
 
@@ -11,7 +11,7 @@
 
 * Aplicar los conocimientos adquiridos de los temas de circuitos en serie y circuitos en paralelo para la resolcuión de los ejercicos propuestos por el libro de Floyd
 
-**2.MARCO TEÓRICO**
+# **2.MARCO TEÓRICO**
 
 ![image](https://user-images.githubusercontent.com/105617383/171084272-8dc16be6-d7dc-45af-adda-a3edfb290b6a.png)
 ![image](https://user-images.githubusercontent.com/105617383/171086316-52322f65-13f0-496a-90cc-064e9b3a9ccf.png)
@@ -19,7 +19,7 @@
 ![image](https://user-images.githubusercontent.com/105617383/171094927-ba669602-fd65-4742-a8f5-a6a76c544bc5.png)
 ![image](https://user-images.githubusercontent.com/105617383/171099732-9e8f96bd-6596-4c21-973c-cbaff318b92d.png)
 
-**3.Explicación y resolución de ejercicios**
+# **3.Explicación y resolución de ejercicios**
 
 **CAPITULO 5**
 
@@ -270,3 +270,9 @@ image**
 
 **(d) 1 y 4**
 
+# VIDEO
+
+# CONCLUCIONES 
+
+
+# BIBLIOGRAFÍA
