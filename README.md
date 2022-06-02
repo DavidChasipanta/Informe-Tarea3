@@ -31,19 +31,19 @@
 
 ![image](https://user-images.githubusercontent.com/105617383/171631263-36d83f62-7470-4cf9-bfff-c3499423126d.png)
 
--Todas las resistencias esta en serie 
+* Todas las resistencias esta en serie 
 
 **4.Determine la resistencia nominal presente entre las puntas 2 y 3 del circuito de la figura 5-68.**
 
 ![image](https://user-images.githubusercontent.com/105617383/171633132-ab44c992-102d-496f-9415-4498ead7bc4a.png)
 
-Req = R12 + R8 + R6
+* Req = R12 + R8 + R6
 
 **SECCIÓN 5-2 Corriente en un circuito en serie**
 
 **6.¿Cuál es la corriente a través de cada resistor dispuesto en un circuito en serie si el voltaje total es de 12 V y la resistencia total de 120 Ω?**
 
-I = V/R = 12 V/120 Ω = 0.1 A
+* I = V/R = 12 V/120 Ω = 0.1 A
 
 **8.Muestre cómo conectar una fuente de voltaje y un amperímetro a la tarjeta de circuito impreso ilustrada en la figura 5-68 para medir la corriente en R1. ¿Qué otras corrientes de resistor se miden con esta configuración?**
 
@@ -53,17 +53,17 @@ I = V/R = 12 V/120 Ω = 0.1 A
 
 **10.Se conectan los siguientes resistores (uno de cada uno) en un circuito en serie: 1.0 Ω, 2.2 Ω, 5.6 Ω, 12 Ω, y 22 Ω. Determine la resistencia total.**
 
-RT = 1.0 Ω + 2.2 Ω + 5.6 Ω + 12 Ω + 22 Ω = 42.8 Ω
+* RT = 1.0 Ω + 2.2 Ω + 5.6 Ω + 12 Ω + 22 Ω = 42.8 Ω
 
 **12.Calcule la RT en cada circuito de la figura 5-71.**
 
 ![image](https://user-images.githubusercontent.com/105617383/171633839-4c5124bc-3585-4aaa-8bd1-c72a1d86a859.png)
 
-(a) RT = 1.0 kΩ + 5.6 kΩ + 2.2 kΩ = 8.6 kΩ
+* (a) RT = 1.0 kΩ + 5.6 kΩ + 2.2 kΩ = 8.6 kΩ
 
-(b) RT = 4.7 Ω + 10 Ω + 12 Ω + 1.0 Ω = 27.7 Ω
+* (b) RT = 4.7 Ω + 10 Ω + 12 Ω + 1.0 Ω = 27.7 Ω
 
-(c) RT = 1.0 MΩ + 560 kΩ + 5.6 MΩ + 680 kΩ + 10 MΩ = 1.0 MΩ + 0.56 MΩ + 5.6 MΩ + 0.68 MΩ + 10 MΩ = 17.84 MΩ
+* (c) RT = 1.0 MΩ + 560 kΩ + 5.6 MΩ + 680 kΩ + 10 MΩ = 1.0 MΩ + 0.56 MΩ + 5.6 MΩ + 0.68 MΩ + 10 MΩ = 17.84 MΩ
 
 **14.Se conectan en serie seis resistores de 56 Ω, ocho de 100 Ω, y dos de 22 Ω. ¿Cuál es la resistencia total?**
 
@@ -187,15 +187,15 @@ Las caídas de voltaje en los dos circuitos son las que tienen un paso de corrie
 
 (a) Vx = (Rx/RT)Vs
    
-Vx = (56 Ω/156 Ω)12 V
+* Vx = (56 Ω/156 Ω)12 V
    
-Vx = 4.31 V
+→ Vx = 4.31 V
 
 (b) Vx = (Rx/RT)Vs
 
-Vx = (5.5 kΩ/6.5 kΩ)8 V
+* Vx = (5.5 kΩ/6.5 kΩ)8 V
 
-Vx = 6.77 V
+→ Vx = 6.77 V             
 
 **40.Determine los voltajes mínimo y máximo producidos por el divisor de voltaje de la figura 5-85(b).**
 
@@ -381,6 +381,14 @@ image**
 # VIDEO
 
 # CONCLUCIONES 
+* Como conclusión, se tiene que la cantidad total de potencia presentada en un circuito resistivo dispuesto en serie, es igual a la suma de potencias de cada resistor, también el voltaje siempre se mide con respecto a otro punto, cabe recalcar que, en un circuito en paralelo, el voltaje es igual al voltaje de cada una de las demás ramas en paralelo.
+
+* De igual manera se tiene que un nodo es cualquier punto o unión donde dos o más componentes están conectados, y la ley de Kirchoff menciona que la suma de las corrientes que entran a un nodo, es igual a la suma de las corrientes que salen del mismo nodo.
+
+* Un circuito se encuentra en serie cuando solo posee una trayectoria y por lo tanto la corriente en dicho circuito no puede variar, pero el voltaje si varia debido a la caída de voltaje que presenta al pasar por un resistor, es decir va disminuyendo en el transcurso al pasar a través de todos los resistores.
+
 
 
 # BIBLIOGRAFÍA
+
+Floyd, T. (2007). Principios de circuitos eléctricos. PEARSON Educación.
