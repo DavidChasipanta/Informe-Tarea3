@@ -185,6 +185,18 @@ Las caídas de voltaje en los dos circuitos son las que tienen un paso de corrie
 
 ![image](https://user-images.githubusercontent.com/105617383/171637217-6048358b-2bd1-4be7-aed1-3b29d556ccdf.png)
 
+(a) Vx = (Rx/RT)Vs
+   
+Vx = (56 Ω/156 Ω)12 V
+   
+Vx = 4.31 V
+
+(b) Vx = (Rx/RT)Vs
+
+Vx = (5.5 kΩ/6.5 kΩ)8 V
+
+Vx = 6.77 V
+
 **40.Determine los voltajes mínimo y máximo producidos por el divisor de voltaje de la figura 5-85(b).**
 
 ![image](https://user-images.githubusercontent.com/105617383/171637306-091580b1-02a5-471c-8f17-bd970ed82459.png)
@@ -193,11 +205,19 @@ Las caídas de voltaje en los dos circuitos son las que tienen un paso de corrie
 
 ![image](https://user-images.githubusercontent.com/105617383/171637379-1e6fdc7d-1b0e-4693-af0c-f307799aa936.png)
 
+Vx = (Rx/RT)Vs
+
+Vx = (5.6 kΩ/108.6 kΩ)100 V
+
+Vx = 5.16 V
+
 **44.Con la tabla de valores estándar de resistor dada en el apéndice A, diseñe un divisor de voltaje para producir los siguientes voltajes aproximados con respecto a tierra utilizando una fuente de 30 V; 8.18 V, 14.7 V, y 24.6 V. La corriente extraída de la fuente debe limitarse a no más de 1 mA. El número de resistores, sus valores, y sus valores nominales de potencia en watts deben ser especificados. Se debe proporcionar un diagrama esquemático que muestre la disposición del circuito y la colocación de los resistores.**
 
 **SECCIÓN 5-8 Potencia en circuitos en serie**
 
 **46.Cada uno de cinco resistores dispuestos en serie manejan 50 mW. ¿Cuál es la potencia total?**
+
+PT = 50 mW + 50 mW + 50 mW + 50 mW + 50 mW = 250 mW
 
 **48.Los siguientes resistores de 1⁄4 W están dispuestos en serie: 1.2 kΩ, 2.2 kΩ, 3.9 kΩ, y 5.6 kΩ.¿Cuál es el voltaje máximo que puede ser aplicado a través de estos resistores sin exceder el valor nominal de potencia? ¿Cuál resistor se quemará primero al aplicar un voltaje excesivo?**
 
@@ -215,9 +235,13 @@ Las caídas de voltaje en los dos circuitos son las que tienen un paso de corrie
 
 ![image](https://user-images.githubusercontent.com/105617383/171637735-1d29f5bb-c64c-4aaa-bac3-539b550e8608.png)
 
+Se coloca a un lado de R2 y el otro punto se pone a tierra, luego se resta el voltaje B y A.
+
 **SECCIÓN 5–10 Localización de fallas**
 
 **54.Se conecta una serie de cinco resistores a través de una batería de 12 V. Se miden 0 volts en todos los resistores excepto en R2. ¿Qué está mal en el circuito? ¿Qué voltaje se medirá a través de R2?**
+
+Se produjo una abertura, su voltaje es de 12 V. 
 
 **56.¿Cuál corriente mediría usted en la figura 5-91(b) si sólo R2 estuviera en cortocircuito?**
 
