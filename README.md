@@ -64,6 +64,8 @@
 
 ![image](https://user-images.githubusercontent.com/105617383/171633339-df91b0c3-60db-445a-b598-81d041111f9b.png)
 
+![image](https://user-images.githubusercontent.com/105617383/171851550-1519f95b-a1ee-4af8-80ee-954cece69f45.png)
+
 **SECCIÓN 5-3 Resistencia total en serie**
 
 **10.Se conectan los siguientes resistores (uno de cada uno) en un circuito en serie: 1.0 Ω, 2.2 Ω, 5.6 Ω, 12 Ω, y 22 Ω. Determine la resistencia total.**
@@ -418,7 +420,7 @@ RT=(1KΩ x 2.2kΩ)/(1KΩ + 2.2kΩ)=(2.2kΩ^2)/3.8kΩ
 
 RT=0.57 kΩ
 
-* Posición C:
+**Posición C:**
 
 RT=(R1 x R2)/(R1 + R2)
 
@@ -780,11 +782,19 @@ El voltaje disminuyo.
 
 **(a) 1 y 2**
 
+ No tiene conexión
+ 
 **(b) 2 y 3** 
+ 
+ Las resistencias que forman parte de las puntas son: R5, R6, R7, R8, R9, R10
 
 **(c) 3 y 4** 
 
+No tiene conexión
+
 **(d) 1 y 4**
+
+R2
 
 # VIDEO
 
